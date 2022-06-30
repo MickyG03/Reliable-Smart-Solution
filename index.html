@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script>
+        var filePath;
+        var fileName;
+
+        var firstName;
+        var lastName;
+        var contactNumber;
+        var emailId;
+        var id = 0;
+
+        var exceldata = [];
+        var categorylist = [];
+
+        var dropdown;
+    </script>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="js/jszip.js"></script>
+    <script src="js/xlsx.js"></script>
+    <script src="source.js "></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="card text-center">
+
+            <img src="icon.png" class="rounded mx-auto d-block" alt="..." style="width:10rem;">
+            <div class="card-header">
+                Reliable Smart Solutions
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Upload the File</h5>
+                <p class="card-text">Select the Excel file (.xls) in your device.</p>
+
+                <input enctype="multipart/form-data" type="file" id="myfile" name="myfile">
+                <br>
+                <br>
+                <button onclick="location.href='form.html';" " type="button " id="upload " class="btn btn-outline-primary ">Upload</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    
+</footer>
+
+</html>
